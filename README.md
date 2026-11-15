@@ -1,4 +1,4 @@
-## DATE: 11/09/2026
+## Ordinary Least Squares (Closed-form) Linear Regression
 
 
 
@@ -22,20 +22,6 @@ Implement OLS via normal equations and compare to scikit-learn.
 
 
 
-## THEORY:
-
-
-
-
-
-
- OLS minimizes squared residuals; closed-form solution requires invertible Gram matrix. 
-
-
-
-
-
-
  ## ALGORITHM:
 
 
@@ -43,8 +29,22 @@ Implement OLS via normal equations and compare to scikit-learn.
 
 
 
+ Normal equation : 𝛽̂ = (𝑋𝑇𝑋)−1𝑋𝑇𝑦  
 
- Normal equation : 𝛽̂ = (𝑋𝑇𝑋)−1𝑋𝑇𝑦 
+
+
+
+
+
+ ## THEORY:
+
+
+
+
+
+
+
+ OLS minimizes squared residuals; closed-form solution requires invertible Gram matrix.
 
 
 
